@@ -1,11 +1,8 @@
-def main():
-    start = int(input("How many lines?"))
+start = int(input("How many lines?"))
 
-    for e in range(start, 0, -1):
-        for d in range(start - e):
+for e in range(start, 0, -1):
+    for d in range(start - e):
             print(' ', end='')
-        for d in range(e):
+    for d in range(e):
             print('*', end='')
-        print()
-
-main()
+    print()
